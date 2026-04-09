@@ -116,6 +116,7 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana";
+            ctx.fillText("Hold your device vertically", 10, -20);
             ctx.fillText("Click Me:) ", 30, -5);
             ctx.fillText("Birthday Queen !", 28, 10);
             ctx.restore();
